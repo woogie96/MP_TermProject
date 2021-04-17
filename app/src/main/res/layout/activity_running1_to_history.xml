@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020년 04월 17일"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="뛰었던 코스"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="top|center"
+                android:scaleType="centerInside"
+                android:src="@drawable/running1_specific" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_gravity="center|bottom">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="런닝 모드"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="문어 삼촌"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="달린 거리"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="1.8km"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="달린 시간"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="17분"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="평균 속력"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="5.4 km/h"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="태운 칼로리"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="300 kcal"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="달성한 업적"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="문어 놀리기"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:src="@drawable/angry_octopus"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:layout_column="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="모래요정"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:layout_gravity="left"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:src="@drawable/send_fairy"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:layout_column="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="획득 재화"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="코인"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="20개"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:text="옷감"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textColor="@color/purple_200"/>
+                    <TextView
+                        android:text="15개"
+                        android:gravity="left"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <Button
+                    android:text="공유하기"
+                    android:id="@+id/history_share">
+                </Button>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
