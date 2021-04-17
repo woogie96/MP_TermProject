@@ -19,26 +19,25 @@ public class MainActivity2 extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        int curid=item.getItemId();
-        if(curid==R.id.menu_settings)
-
-        switch(curid){
+        switch(item.getItemId()){
             case R.id.menu_refresh:
-                Toast.makeText(this, "프로필", Toast.LENGTH_SHORT).show();
-                break;
+                Intent intent=new Intent(this, Profile.class);
+                startActivity(intent);
             case R.id.menu_search:
-                Toast.makeText(this, "기록", Toast.LENGTH_SHORT).show();
-                break;
+                Intent intent1=new Intent(this, Profile.class);
+                startActivity(intent1);
             case R.id.menu_some:
-                Toast.makeText(this, "...", Toast.LENGTH_SHORT).show();
-                break;
+                Intent intent2=new Intent(this, Profile.class);
+                startActivity(intent2);
             case R.id.menu_settings:
-                Toast.makeText(this, "설정", Toast.LENGTH_SHORT).show();
-                break;
+                Intent intent3=new Intent(this, Profile.class);
+                startActivity(intent3);
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
