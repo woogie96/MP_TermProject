@@ -1,0 +1,2 @@
+rootProject.name='MP_layout_first'
+include ':app'
