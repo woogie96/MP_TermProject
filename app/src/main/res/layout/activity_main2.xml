@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/running"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="293dp"
+        android:layout_height="100dp"
+        android:background="@drawable/radius"
+        android:text="Running"
+        android:textSize="50dp"
+        android:layout_marginTop="100sp"
+        android:layout_gravity="center"
+        app:backgroundTint="#B89A9A" />
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="293dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="70sp"
+        android:layout_marginTop="70sp"
+        android:background="@drawable/radius"
+        android:text="Collabo"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textSize="50dp"
+        app:backgroundTint="#C3A1FF" />
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="293dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/radius"
+        android:text="Gaming"
+        android:textSize="50dp" />
+
+</LinearLayout>
