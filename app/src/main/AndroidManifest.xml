@@ -15,9 +15,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project11">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".SetActivity"></activity>
+        <activity android:name=".RunStopActivity" />
+        <activity android:name=".RunActivity" />
+        <activity android:name=".Sang_MainActivity" />
+        <activity android:name=".Profile_dong_Main3Activity" />
+        <activity android:name=".Profile_dong_Main2Activity" />
+        <activity android:name=".Profile_dong_MainActivity" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Friend" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Profile_Friends" />
+        <activity android:name=".Button_Profile" />
+        <activity android:name=".Profile_edit" />
         <activity android:name=".End" />
-        <activity android:name=".Game" />
         <activity android:name=".Collaboration" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

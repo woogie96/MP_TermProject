@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <FrameLayout
+    tools:ignore="MissingDefaultResource"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_gravity="center|top"
+        android:stretchColumns="*">
+
+        <View
+            android:layout_height="60dp"
+            android:layout_width="match_parent"/>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="2일 23:14:00"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="60km"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="26753kcal"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="총 시간"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="달린 거리"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="칼로리"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <ScrollView
+        android:layout_height="600dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="1dp"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageButton
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/running1" android:id="@+id/image_btn1_click"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="match_parent" android:src="@drawable/running2"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="match_parent" android:src="@drawable/running3"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="match_parent" android:src="@drawable/running4"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>

@@ -22,16 +22,16 @@ public class MainActivity2 extends AppCompatActivity {
         switch(item.getItemId()){
             case R.id.menu_refresh:
                 Intent intent=new Intent(this, Profile.class);
-                startActivity(intent);
+                //startActivity(intent);
             case R.id.menu_search:
-                Intent intent1=new Intent(this, Profile.class);
+                Intent intent1=new Intent(this, Mainmenu_to_history.class);
                 startActivity(intent1);
             case R.id.menu_some:
-                Intent intent2=new Intent(this, Profile.class);
-                startActivity(intent2);
+                Intent intent2=new Intent(this, Friend.class);
+                //startActivity(intent2);
             case R.id.menu_settings:
-                Intent intent3=new Intent(this, Profile.class);
-                startActivity(intent3);
+                Intent intent3=new Intent(this, Setting.class);
+                //startActivity(intent3);
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -62,7 +62,7 @@ public class MainActivity2 extends AppCompatActivity {
         C.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity2.this, Game.class);
+                Intent intent=new Intent(MainActivity2.this, Sang_MainActivity.class);
                 startActivity(intent);
             }
         });
